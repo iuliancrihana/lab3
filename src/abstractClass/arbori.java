@@ -11,10 +11,10 @@ public abstract class arbori {
 
     /**
      * @param
-     *      @param categInaltime : mic, mediu, mare
-     *      @param sol           : brune de padure, aluviale, de padure, cenusii, etc.
-     *      @param formaFrunza   : eliptica, ovala, circulara, etc.
-     *      @param nume          : brad, pin, molid, etc.
+     * @param categInaltime : mic, mediu, mare
+     * @param sol           : brune de padure, aluviale, de padure, cenusii, etc.
+     * @param formaFrunza   : eliptica, ovala, circulara, etc.
+     * @param nume          : brad, pin, molid, etc.
      */
     protected arbori(String formaFrunza, String categInaltime, String sol, String nume) {
         this.mFormaFrunza = formaFrunza;
@@ -33,20 +33,23 @@ public abstract class arbori {
     public String getCategInaltime() {
         return mCategInaltime;
     }
+
     /**
      * getteri si setteri
      */
     public void setCategInaltime(String categInaltime) {
         this.mCategInaltime = categInaltime;
     }
+
     /**
      * getteri si setteri
      */
     public String getSol() {
         return mSol;
     }
+
     /**
-     * getteri si setteri//
+     * getteri si setteri////
      */
     public void setSol(String sol) {
         this.mSol = sol;
