@@ -23,7 +23,7 @@ public abstract class arbori {
         this.mNume = nume;
     }
 
-    
+
     public abstract String printDetails();
 
 
