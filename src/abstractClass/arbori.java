@@ -46,33 +46,37 @@ public abstract class arbori {
         return mSol;
     }
     /**
-     * getteri si setteri
+     * getteri si setteri//
      */
     public void setSol(String sol) {
         this.mSol = sol;
     }
-    /**
-     * getteri si setteri
-     */
-    public void setmNume(String mNume) {
-        this.mNume = mNume;
-    }
+
     /**
      * getteri si setteri
      */
     public String getmFormaFrunza() {
         return mFormaFrunza;
     }
+
     /**
      * getteri si setteri
      */
     public void setmFormaFrunza(String mFormaFrunza) {
         this.mFormaFrunza = mFormaFrunza;
     }
+
     /**
      * getteri si setteri
      */
     public String getmNume() {
         return mNume;
+    }
+
+    /**
+     * getteri si setteri
+     */
+    public void setmNume(String mNume) {
+        this.mNume = mNume;
     }
 }
