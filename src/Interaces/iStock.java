@@ -1,16 +1,21 @@
 package Interaces;
 
+import Magazin.Articol.Articol;
+
 /**
  * Created by IulianC on 29/10/2014.
  */
-public interface iPlante {
-    /**
-     * le cad frunzele toamna?
-     */
-     public boolean leCadToamnaFrunzele();
+public interface iStock {
+	/**
+	 * @param nouArticol
+	 * @return
+	 */
+	int addItemStock(Articol nouArticol);
 
-    /**
-     * daca fructul este comestibil
-     */
-     public boolean fructComestibil() throws Exception;
+	/**
+	 * @param idArticol
+	 * @return
+	 * @throws Exception
+	 */
+	int removeFromStock(int idArticol) throws Exception;
 }
